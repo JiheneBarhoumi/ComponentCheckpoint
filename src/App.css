@@ -1,0 +1,13 @@
+.App{
+  font-family: sans-serif;
+  text-align: center;
+  margin: 5%;
+  border: 2px solid rgb(10, 207, 207);
+  border-radius: 20px;
+  padding: 5%;
+  cursor: pointer;
+}
+.App img{transition: 0.4s ease-in-out; opacity: .7; width: 40%; height: 40%; border-radius: 20px; margin-bottom: 5px;}
+.App img:hover{opacity: 1;  transform: scale(1.1); -webkit-box-shadow: 10px 10px 52px -7px rgba(0,0,0,0.65);
+  -moz-box-shadow: 10px 10px 52px -7px rgba(0,0,0,0.65);
+  box-shadow: 10px 10px 52px -7px rgba(0,0,0,0.65);}
